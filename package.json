@@ -1,0 +1,24 @@
+{
+  "name": "unipods-whatsapp-context-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp group assistant that answers project-related questions from chat history / announcements, reducing group spam. Built for the UniPods Hackathon.",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@google/genai": "^0.3.1",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "dotenv": "^16.4.5"
+  },
+  "license": "MIT",
+  "author": "UniPods Hackathon Team"
+}
