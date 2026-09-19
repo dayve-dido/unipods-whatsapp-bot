@@ -12,7 +12,8 @@
  */
 
 import 'dotenv/config';
-import makeWASocket, {
+import {
+  makeWASocket,
   useMultiFileAuthState,
   fetchLatestBaileysVersion,
   DisconnectReason,
